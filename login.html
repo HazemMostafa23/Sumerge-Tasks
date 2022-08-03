@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title>Login Page</title>
+    <style>
+        .login {
+            text-align: center;
+            
+            background-color: rgb(7, 7, 39);
+            width:50%;
+
+            /* height: 10%; */
+            color:white;
+           
+
+        }
+        form{
+            padding-top: 150px;
+            
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+        }
+
+        body {
+            background-color: rgb(235, 133, 0);
+            font-family: Arial;
+
+        }
+        input[type="text"],input[type="password"]{
+            
+            width: 50%;
+
+            margin: 8px 0;
+
+            padding: 12px 20px;
+
+            display: inline-block;
+
+            border: 2px solid black;
+
+            box-sizing: border-box;
+
+        }
+        input[type="submit"]{
+            width:50%;
+            height:40px;
+         
+            border:none;
+            color:white;
+            font-weight: bold;
+            margin-left:65px;
+            margin-bottom: 25px;
+            background-color: green;
+            text-align: center;
+        }
+        
+    </style>
+
+<body>
+
+
+    <form action="#" method="POST">
+        <div class="login">
+            <h2>Please enter your login details</h2>
+            <label for="username">Username</label>
+            <input type="text" name="username" placeholder="Username" id="username" required>
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Password" id="password" required>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+</body>
+
+</head>
+
+</html>
