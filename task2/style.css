@@ -1,0 +1,65 @@
+#turn {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+    color: white;
+}
+
+.xo {
+    width: 130px;
+    height: 72px;
+    margin: auto;
+    /* border: 1px solid gray; */
+    border: none;
+    border-radius: 1px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    background-color: black;
+
+}
+
+.outline {
+
+    padding-right: 10px;
+    border-right: 10px solid #ccc;
+
+}
+
+.outter {
+
+    padding-bottom: 20px;
+    border-bottom: 10px solid #ccc;
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: 400px;
+
+}
+
+#winner {
+    text-align: center;
+
+    font-size: 35px;
+    font-weight: bold;
+    font-family: cursive;
+    color: white;
+
+
+}
+
+.reset {
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-radius: 100px;
+    font-weight: bold;
+    font-family: cursive;
+
+
+}

@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="logic.js"></script>
+
+
+<p id="turn">
+    Player <span style="color: green">X</span> Turn
+</p>
+
+<body style="background-color: black;">
+
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-lg-2 outline outter"><input type="button" onclick="call(this.id);" id="0" class="xo"></div>
+            <div class="col-lg-2 outline outter"><input type="button" onclick="call(this.id);" id="1" class="xo"></div>
+            <div class="col-lg-2  outter"><input type="button" onclick="call(this.id);" id="2" class="xo"></div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2 outline outter"><br><input type="button" onclick="call(this.id);" id="3" class="xo">
+            </div>
+            <div class="col-lg-2 outline outter"><br><input type="button" onclick="call(this.id);" id="4" class="xo">
+            </div>
+            <div class="col-lg-2  outter"><br><input type="button" onclick="call(this.id);" id="5" class="xo"></div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2 outline"><br><input type="button" onclick="call(this.id);" id="6" class="xo"></div>
+            <div class="col-lg-2 outline "><br><input type="button" onclick="call(this.id);" id="7" class="xo"></div>
+            <div class="col-lg-2 "><br><input type="button" onclick="call(this.id);" id="8" class="xo"></div>
+        </div>
+
+
+    </div>
+    <br><br>
+    <div class="col-md-12 text-center">
+        <p id="winner"></p>
+
+    </div>
+    <br><br>
+
+    <div class="col-md-12 text-center">
+        <button type="button" class="btn btn-lg  reset" onclick="reset();">Reset</button>
+
+    </div>
+
+
+
+
+
+</body>
