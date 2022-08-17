@@ -1,0 +1,27 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <img src="https://i.im.ge/2022/08/17/O2cPPK.Untitled-removebg-preview-removebg-preview.png" class="navbar-brand img-fluid logo" alt="...">
+            <!-- <a style="cursor:pointer" *ngIf="isAuthenticated" class="navbar-brand">Movie Guide</a> -->
+
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+
+                <li routerLinkActive="active"><a role="button"  *ngIf="isAuthenticated" [routerLink]="['/catalog']"> Catalog</a></li>
+                <!-- <li routerLinkActive="active"> <a role="button" *ngIf="isAuthenticated==false" [routerLink]="['/login']">Login</a></li> -->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a style="cursor:pointer" (click)="onSignOut()"*ngIf="isAuthenticated"> LogOut</a>
+
+                </li>
+
+            </ul>
+        </div>
+
+
+
+    </div>
+</nav>
